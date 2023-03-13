@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -empty -print0 -o -type f -empty -print0 | tr -d '\0' | awk -F'/' '{print $NF}'
+find . -empty -printf '%P\n'
