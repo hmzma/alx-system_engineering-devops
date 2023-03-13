@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "SCHOOL This is a School data file" > sample_school_file
