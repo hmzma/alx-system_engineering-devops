@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1a | sed -e 's/^\.\{0,2\}$/&\//' -e '/^\.\{1,2\}$/d' | LC_ALL=C sort -df | tr '\n' ',' ; echo
+ls -xamp
